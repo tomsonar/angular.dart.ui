@@ -26,12 +26,12 @@ class ModalModule extends Module {
     selector: 'modal-window',
     publishAs: 'm',
     applyAuthorStyles: true,
-    templateUrl: 'packages/angular_ui/modal/window.html')
+    templateUrl: '/packages/angular_ui/modal/window.html')
 @NgComponent(
     selector: '[modal-window]',
     publishAs: 'm',
     applyAuthorStyles: true,
-    templateUrl: 'packages/angular_ui/modal/window.html')
+    templateUrl: '/packages/angular_ui/modal/window.html')
 class ModalWindow implements NgAttachAware {
 
   @NgAttr('windowClass')
